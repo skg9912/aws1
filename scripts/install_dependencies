@@ -2,4 +2,3 @@
 yum install -y httpd
 yum install -y iptraf
 yum install mariadb -y
-systemctl start mariadb.service
