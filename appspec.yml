@@ -3,6 +3,9 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+file:
+    path: /tmp/devops_directory
+    state: directory
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
